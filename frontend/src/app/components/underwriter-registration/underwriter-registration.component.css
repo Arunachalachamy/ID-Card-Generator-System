@@ -1,0 +1,13 @@
+/* UnderWriter registration component specific styles */
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  border-bottom: none;
+}
+
+.form-control:read-only {
+  background-color: #e9ecef;
+}
