@@ -1,0 +1,144 @@
+<div class="container-fluid">
+  <!-- Header -->
+  <div class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" routerLink="/">
+            <i class="bi bi-shield-check"></i> Star Protect Vehicle Insurance
+          </a>
+          <div class="navbar-nav ms-auto">
+            <span class="navbar-text text-light me-3">
+              <i class="bi bi-person-gear"></i> Administrator Dashboard
+            </span>
+            <button class="btn btn-outline-light" (click)="logout()">
+              <i class="bi bi-box-arrow-right"></i> Logout
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header bg-primary text-white">
+              <h4><i class="bi bi-gear"></i> UnderWriter Management</h4>
+              <p class="mb-0">Select an option to manage UnderWriter information</p>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6 col-lg-4 mb-3">
+                  <div class="card border-success">
+                    <div class="card-body text-center">
+                      <i class="bi bi-person-plus text-success" style="font-size: 2rem;"></i>
+                      <h6 class="card-title mt-2">UnderWriter Registration</h6>
+                      <p class="card-text small">Register a new UnderWriter</p>
+                      <button class="btn btn-success btn-sm" (click)="navigateToUnderwriterRegistration()">
+                        Register UnderWriter
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-3">
+                  <div class="card border-info">
+                    <div class="card-body text-center">
+                      <i class="bi bi-search text-info" style="font-size: 2rem;"></i>
+                      <h6 class="card-title mt-2">Search UnderWriter by Id</h6>
+                      <p class="card-text small">Find UnderWriter by ID</p>
+                      <button class="btn btn-info btn-sm" (click)="navigateToSearchUnderwriter()">
+                        Search UnderWriter
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-3">
+                  <div class="card border-warning">
+                    <div class="card-body text-center">
+                      <i class="bi bi-key text-warning" style="font-size: 2rem;"></i>
+                      <h6 class="card-title mt-2">Update UnderWriter Password</h6>
+                      <p class="card-text small">Change UnderWriter password</p>
+                      <button class="btn btn-warning btn-sm" (click)="navigateToUpdatePassword()">
+                        Update Password
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-3">
+                  <div class="card border-danger">
+                    <div class="card-body text-center">
+                      <i class="bi bi-person-dash text-danger" style="font-size: 2rem;"></i>
+                      <h6 class="card-title mt-2">Delete UnderWriter by Id</h6>
+                      <p class="card-text small">Remove UnderWriter from system</p>
+                      <button class="btn btn-danger btn-sm" (click)="navigateToDeleteUnderwriter()">
+                        Delete UnderWriter
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-3">
+                  <div class="card border-primary">
+                    <div class="card-body text-center">
+                      <i class="bi bi-people text-primary" style="font-size: 2rem;"></i>
+                      <h6 class="card-title mt-2">View All UnderWriter</h6>
+                      <p class="card-text small">Display all UnderWriters</p>
+                      <button class="btn btn-primary btn-sm" (click)="navigateToViewAllUnderwriters()">
+                        View All UnderWriters
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-3">
+                  <div class="card border-secondary">
+                    <div class="card-body text-center">
+                      <i class="bi bi-car-front text-secondary" style="font-size: 2rem;"></i>
+                      <h6 class="card-title mt-2">View All Vehicles</h6>
+                      <p class="card-text small">View vehicles by UnderWriter ID</p>
+                      <button class="btn btn-secondary btn-sm" (click)="navigateToViewVehiclesByUnderwriter()">
+                        View Vehicles
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h6><i class="bi bi-info-circle"></i> Author Information</h6>
+          <p class="mb-1">
+            <strong>Star Protect Vehicle Insurance System</strong><br>
+            Developed by: Software Development Team<br>
+            Version: 1.0.0<br>
+            © 2024 Star Protect Insurance. All rights reserved.
+          </p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <h6><i class="bi bi-envelope"></i> Contact Information</h6>
+          <p class="mb-1">
+            Email: support@starprotect.com<br>
+            Phone: +1-800-PROTECT<br>
+            Address: 123 Insurance Lane, Safety City
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

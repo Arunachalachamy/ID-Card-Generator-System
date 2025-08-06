@@ -1,0 +1,21 @@
+/* Home component specific styles */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.bi {
+  vertical-align: baseline;
+}

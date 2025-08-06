@@ -1,0 +1,127 @@
+<!-- Header -->
+<div class="header">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-shield-check"></i> Star Protect Vehicle Insurance
+        </a>
+        <div class="navbar-nav ms-auto">
+          <button class="btn btn-outline-light me-2" (click)="navigateToAdminLogin()">
+            <i class="bi bi-person-gear"></i> Login as Administrator
+          </button>
+          <button class="btn btn-outline-light" (click)="navigateToUnderwriterLogin()">
+            <i class="bi bi-person-badge"></i> Login as UnderWriter
+          </button>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<!-- Main Content -->
+<div class="main-content">
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card">
+          <div class="card-body text-center p-5">
+            <h1 class="card-title mb-4">
+              <i class="bi bi-shield-shaded text-primary" style="font-size: 3rem;"></i>
+              <br>
+              Welcome to Star Protect Vehicle Insurance System
+            </h1>
+            <p class="card-text lead mb-4">
+              Your trusted partner for comprehensive vehicle insurance solutions. 
+              We provide reliable protection for your valuable assets with our 
+              expert underwriting services and customer-focused approach.
+            </p>
+            
+            <div class="row mt-5">
+              <div class="col-md-6 mb-3">
+                <div class="card border-primary">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary">
+                      <i class="bi bi-person-gear"></i> Administrator Portal
+                    </h5>
+                    <p class="card-text">
+                      Manage underwriters, oversee policies, and maintain system operations.
+                    </p>
+                    <button class="btn btn-primary" (click)="navigateToAdminLogin()">
+                      Access Admin Portal
+                    </button>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-6 mb-3">
+                <div class="card border-success">
+                  <div class="card-body">
+                    <h5 class="card-title text-success">
+                      <i class="bi bi-person-badge"></i> UnderWriter Portal
+                    </h5>
+                    <p class="card-text">
+                      Create policies, process renewals, and manage vehicle insurance.
+                    </p>
+                    <button class="btn btn-success" (click)="navigateToUnderwriterLogin()">
+                      Access UnderWriter Portal
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-md-4">
+                <div class="text-center">
+                  <i class="bi bi-car-front text-info" style="font-size: 2rem;"></i>
+                  <h6 class="mt-2">Vehicle Protection</h6>
+                  <small class="text-muted">Comprehensive coverage for all vehicle types</small>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="text-center">
+                  <i class="bi bi-clock-history text-warning" style="font-size: 2rem;"></i>
+                  <h6 class="mt-2">Quick Processing</h6>
+                  <small class="text-muted">Fast policy creation and renewal services</small>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="text-center">
+                  <i class="bi bi-headset text-success" style="font-size: 2rem;"></i>
+                  <h6 class="mt-2">Expert Support</h6>
+                  <small class="text-muted">Professional underwriting expertise</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h6><i class="bi bi-info-circle"></i> Author Information</h6>
+        <p class="mb-1">
+          <strong>Star Protect Vehicle Insurance System</strong><br>
+          Developed by: Software Development Team<br>
+          Version: 1.0.0<br>
+          © 2024 Star Protect Insurance. All rights reserved.
+        </p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <h6><i class="bi bi-envelope"></i> Contact Information</h6>
+        <p class="mb-1">
+          Email: support@starprotect.com<br>
+          Phone: +1-800-PROTECT<br>
+          Address: 123 Insurance Lane, Safety City
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
